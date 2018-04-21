@@ -27,7 +27,7 @@ const FrontPage = () => (
               <Button color="link mx-2"><a href="https://www.instagram.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i></a></Button>
             </p>
             <hr className="my-2" />
-            <p className="small">Recently I published my first conference paper</p>
+            <p className="small">Recently I published my first paper</p>
             <a href="https://arxiv.org/abs/1804.00318" target="_blank" rel="noopener noreferrer"><p className="small">Joint Learning of Interactive Spoken Content Retrieval and Trainable User Simulator</p></a>
           </Jumbotron>
         </Col>
