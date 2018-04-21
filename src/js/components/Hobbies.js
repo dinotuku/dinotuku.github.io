@@ -31,14 +31,6 @@ const Hobbies = () => (
                 <ReactPlayer url="https://vimeo.com/265892521" width="100%" height="100%" />
                 <p className="lead mt-1 mb-0"><a href="https://vimeo.com/265892521" target="_blank" rel="noopener noreferrer">Mickey Doraemon</a></p>
               </Card>
-              <Card className="two-fifth m-3">
-                <ReactPlayer url="https://vimeo.com/265892328" width="100%" height="100%" />
-                <p className="lead mt-1 mb-0"><a href="https://vimeo.com/265892328" target="_blank" rel="noopener noreferrer">下雨的晚上 (前奏)</a></p>
-              </Card>
-              <Card className="two-fifth m-3">
-                <ReactPlayer url="https://vimeo.com/265893230" width="100%" height="100%" />
-                <p className="lead mt-1 mb-0"><a href="https://vimeo.com/265893230" target="_blank" rel="noopener noreferrer">Cult 夜場心得</a></p>
-              </Card>
             </div>
             <div className="my-3">
               <h1 className="display-3"><strong>Hobbies</strong></h1>
