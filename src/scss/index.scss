@@ -193,10 +193,11 @@ strong {
   }
 }
 
+#front-page,
 #projects,
 #hobbies {
   a {
-    color: $gray-600;
+    color: $gray-700;
     text-decoration: underline;
     &:hover {
       color: $primary;
