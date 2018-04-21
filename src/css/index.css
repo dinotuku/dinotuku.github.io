@@ -6554,10 +6554,12 @@ strong {
   .card {
     width: 100%; } }
 
+#front-page a,
 #projects a,
 #hobbies a {
-  color: #6c757d;
+  color: #495057;
   text-decoration: underline; }
+  #front-page a:hover,
   #projects a:hover,
   #hobbies a:hover {
     color: #1F1F1F; }
