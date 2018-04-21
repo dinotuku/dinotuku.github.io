@@ -1,0 +1,32 @@
+// New color
+$primary: #1F1F1F;
+
+$navbar-light-toggler-border-color: transparent;
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 960px,
+  xl: 1152px
+);
+
+$display4-size: 2.5rem;
+
+$badge-font-size: 50%;
+$badge-font-weight: 300;
+
+$spacer: 1rem !default;
+$spacers: () !default;
+$spacers: map-merge((
+  -1: -($spacer * .25),
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: $spacer,
+  4: ($spacer * 1.5),
+  5: ($spacer * 3)
+), $spacers);
+
+$card-border-width: 0;
+$card-bg: transparent;
+
