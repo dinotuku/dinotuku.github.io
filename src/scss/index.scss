@@ -137,13 +137,15 @@ strong {
   }
 }
 
+@media (min-width: 1200px) {
+  .half {
+    width: 50%;
+  }
+}
+
 @include media-breakpoint-up(md) {
   .navbar-expand-md .navbar-collapse {
     height: calc(1rem + 16px) !important;
-  }
-
-  .half {
-    width: 50%;
   }
 
   .two-third {

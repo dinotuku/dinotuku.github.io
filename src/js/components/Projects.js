@@ -19,6 +19,7 @@ const Projects = () => (
           <Jumbotron className="bg-light d-flex flex-wrap justify-content-around align-items-center">
             <div className="my-3">
               <h1 className="display-3"><strong>Projects</strong></h1>
+              <p className="lead">Programming projects I've been working on and finished</p>
             </div>
             <div className="half d-flex flex-wrap justify-content-around align-items-center">
               <Card className="two-fifth m-3">
