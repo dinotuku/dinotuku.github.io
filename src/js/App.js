@@ -11,7 +11,7 @@ import '../css/index.css';
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router forceRefresh>
         <div className="App">
           <Header />
           <Route path="/" exact component={Main}></Route>
