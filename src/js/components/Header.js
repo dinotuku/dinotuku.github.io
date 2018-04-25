@@ -33,9 +33,12 @@ class Header extends Component {
     };
   }
   toggle = () => {
-    this.setState({
-      isOpen: !this.state.isOpen
-    });
+    let windowWidth = window.innerWidth || document.documentElement.clientWidth || document.getElementsByTagName('body')[0].clientWidth;
+    if (windowWidth < 768) {
+      this.setState({
+        isOpen: !this.state.isOpen
+      });
+    }
   }
 
   render() {
