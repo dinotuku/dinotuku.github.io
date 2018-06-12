@@ -16,7 +16,7 @@ const Resume = () => (
               <h1 className="display-4">English</h1>
               <div className="iframe-wrapper">
                 <div className="fixed-aspect-ratio">
-                  <iframe className="ml-aute" title="eng_resume" src="https://gdurl.com/fGF3/viewer" width="500" height="100%" frameBorder="0"></iframe>
+                  <iframe className="ml-aute" title="eng_resume" src="https://gdurl.com/AJ57/viewer" width="500" height="100%" frameBorder="0"></iframe>
                 </div>
               </div>
             </Jumbotron>
@@ -31,7 +31,7 @@ const Resume = () => (
             <Jumbotron className="bg-light d-flex flex-wrap-reverse justify-content-around align-items-center">
               <div className="iframe-wrapper">
                 <div className="fixed-aspect-ratio">
-                  <iframe className="ml-aute" title="chi_resume" src="https://gdurl.com/CcFK/viewer" width="500" height="700" frameBorder="0"></iframe>
+                  <iframe className="ml-aute" title="chi_resume" src="https://gdurl.com/705MF/viewer" width="500" height="700" frameBorder="0"></iframe>
                 </div>
               </div>
               <h1 className="display-4 chi">中文</h1>
