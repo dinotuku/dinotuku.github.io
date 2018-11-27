@@ -63,7 +63,10 @@ class Header extends Component {
                       <Link className="nav-link" to="/#projects" smooth>Projects</Link>
                     </NavItem>
                     <NavItem onClick={this.toggle}>
-                      <Link className="nav-link" to="/#hobbies" smooth>Hobbies</Link>
+                      <Link className="nav-link" to="/#publications" smooth>Publications</Link>
+                    </NavItem>
+                    <NavItem onClick={this.toggle}>
+                      <Link className="nav-link" to="/hobbies" smooth>Hobbies</Link>
                     </NavItem>
                     <NavItem onClick={this.toggle}>
                       <NavLink className="nav-link" to="/resume" activeClassName="active">Resume</NavLink>

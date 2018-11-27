@@ -3,6 +3,7 @@ import { HashRouter as Router, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Main from './components/Main';
+import Hobbies from './components/Hobbies';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 
@@ -15,6 +16,7 @@ class App extends Component {
         <div className="App">
           <Header />
           <Route path="/" exact component={Main}></Route>
+          <Route path="/hobbies" component={Hobbies}></Route>
           <Route path="/resume" component={Resume}></Route>
           <Route path="/contact" component={Contact}></Route>
         </div>
