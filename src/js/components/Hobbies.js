@@ -9,12 +9,16 @@ import {
 import ReactPlayer from 'react-player';
 
 const Hobbies = () => (
-  <section id="hobbies" className="hero full-height bg-white">
+  <section className="hero full-height bg-white">
     <Container className="bg-white">
       <Row>
         <Col>
           <Jumbotron className="bg-white d-flex flex-wrap-reverse justify-content-around align-items-center">
             <div className="half d-flex flex-wrap justify-content-around align-items-center">
+              <Card className="two-fifth m-4">
+                <ReactPlayer url="https://vimeo.com/302979750" width="100%" height="100%" />
+                <p className="lead mt-1 mb-0"><a href="https://vimeo.com/302979750" target="_blank" rel="noopener noreferrer">我們一起走，好嗎</a></p>
+              </Card>
               <Card className="two-fifth m-4">
                 <ReactPlayer url="https://vimeo.com/265892054" width="100%" height="100%" />
                 <p className="lead mt-1 mb-0"><a href="https://vimeo.com/265892054" target="_blank" rel="noopener noreferrer">I See Fire Intro</a></p>

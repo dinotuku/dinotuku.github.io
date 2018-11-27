@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import FrontPage from './FrontPage';
 import Projects from './Projects';
-import Hobbies from './Hobbies';
+import Publications from './Publications';
 
 class Main extends Component {
   shouldComponentUpdate() {
@@ -13,7 +13,7 @@ class Main extends Component {
       <div className="main">
         <FrontPage />
         <Projects />
-        <Hobbies />
+        <Publications />
       </div>
     );
   }
