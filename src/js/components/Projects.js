@@ -24,13 +24,19 @@ const Projects = () => (
             <div className="half d-flex flex-wrap justify-content-around align-items-center">
               <Card className="two-fifth m-3">
                 <CardBody>
-                  <CardTitle className="h4"><a href="https://github.com/porkbaby/AMIGOS" target="_blank" rel="noopener noreferrer">AMIGOS</a> <Badge className="align-middle" color="success">Python</Badge> <Badge className="align-middle" color="danger">Current</Badge></CardTitle>
+                  <CardTitle className="h4">
+                    <a href="https://github.com/porkbaby/AMIGOS" target="_blank" rel="noopener noreferrer">AMIGOS</a> <Badge className="align-middle" color="success">Python</Badge>
+                    {/* <Badge className="align-middle" color="danger">Current</Badge> */}
+                  </CardTitle>
                   <CardText className="font-weight-light small">Emotion recognition based on biomedical signal (AMIGOS dataset)</CardText>
                 </CardBody>
               </Card>
               <Card className="two-fifth m-3">
                 <CardBody>
-                  <CardTitle className="h4"><a href="https://github.com/dinotuku/ISCR-DRL" target="_blank" rel="noopener noreferrer">ISCR</a> <Badge className="align-middle" color="success">Python</Badge> <Badge className="align-middle" color="danger">Current</Badge></CardTitle>
+                  <CardTitle className="h4">
+                    <a href="https://github.com/dinotuku/ISCR-DRL" target="_blank" rel="noopener noreferrer">ISCR</a> <Badge className="align-middle" color="success">Python</Badge>
+                    {/* <Badge className="align-middle" color="danger">Current</Badge> */}
+                  </CardTitle>
                   <CardText className="font-weight-light small">Interactive spoken content retrieval with deep reinforcement learning</CardText>
                 </CardBody>
               </Card>
