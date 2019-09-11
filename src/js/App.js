@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { HashRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Header from './components/Header';
 import Main from './components/Main';
@@ -11,8 +11,9 @@ import '../css/index.css';
 
 class App extends Component {
   render() {
+    const supportsHistory = 'pushState' in window.history
     return (
-      <Router forceRefresh>
+      <Router forceRefresh={!supportsHistory}>
         <div className="App">
           <Header />
           <Route path="/" exact component={Main}></Route>

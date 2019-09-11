@@ -15,12 +15,20 @@ const Hobbies = () => (
           <Jumbotron className="bg-white d-flex flex-wrap-reverse justify-content-around align-items-center">
             <div className="half d-flex flex-wrap justify-content-around align-items-center">
               <Card className="m-4">
-                <p className="mt-1 mb-0">*Tung, K., *Liu, P. K., Chuang, Y. C., Wang, S. H., & Wu, A. Y. (2018). <a href="https://arxiv.org/abs/1809.08410" target="_blank" rel="noopener noreferrer">Entropy-Assisted Multi-Modal Emotion Recognition Framework Based on Physiological Signals</a>. arXiv preprint arXiv:1809.08410.</p>
+                <p className="mt-1 mb-0">*K. Tung, *P. Liu, Y. Chuang, S. Wang and A. A. Wu</p>
+                <a href="https://ieeexplore.ieee.org/document/8626634" target="_blank" rel="noopener noreferrer">Entropy-Assisted Multi-Modal Emotion Recognition Framework Based on Physiological Signals</a>
+                <span>2018 IEEE-EMBS Conference on Biomedical Engineering and Sciences (IECBES), Sarawak, Malaysia, 2018, pp. 22-26</span>
+                <span>DOI: 10.1109/IECBES.2018.8626634</span>
                 <p className="small">* Co-first author</p>
+                <p className="small">This paper was awarded the Best Paper Award</p>
               </Card>
               <Card className="m-4">
-                <p className="mt-1 mb-0">*Chung, P., *Tung, K., Tai, C., Lee, H. (2018) <a href="https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1346.html" target="_blank" rel="noopener noreferrer">Joint Learning of Interactive Spoken Content Retrieval and Trainable User Simulator</a>. Proc. Interspeech 2018, 2032-2036, DOI: 10.21437/Interspeech.2018-1346.</p>
+                <p className="mt-1 mb-0">*P. Chung, *K. Tung, C. Tai, H. Lee</p>
+                <a href="https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1346.html" target="_blank" rel="noopener noreferrer">Joint Learning of Interactive Spoken Content Retrieval and Trainable User Simulator</a>
+                <span>Proc. Interspeech 2018, 2032-2036</span>
+                <span>DOI: 10.21437/Interspeech.2018-1346</span>
                 <p className="small">* Co-first author</p>
+                <p className="small">This paper was awarded the ISCA Award for Best Student Paper</p>
               </Card>
             </div>
             <div className="my-3">
