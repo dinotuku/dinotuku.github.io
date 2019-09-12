@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch } from 'react-router'
+import { Switch } from 'react-router';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 import Header from './components/Header';
@@ -13,7 +13,7 @@ import '../css/index.css';
 
 class App extends Component {
   render() {
-    const supportsHistory = 'pushState' in window.history
+    const supportsHistory = 'pushState' in window.history;
     return (
       <Router basename={process.env.PUBLIC_URL} forceRefresh={!supportsHistory}>
         <div className="App">
