@@ -4,10 +4,6 @@ import Projects from './Projects';
 import Publications from './Publications';
 
 class Main extends Component {
-  shouldComponentUpdate() {
-    return false;
-  }
-
   render() {
     return (
       <div className="main">
