@@ -23,7 +23,7 @@ const Contact = () => (
               <div className="my-3">
                 <p className="lead">School Email</p>
                 <hr className="my-2" />
-                <Button color="link" size="lg" block><a href="mailto:b03901039@ntu.edu.tw">b03901039@ntu.edu.tw</a></Button>
+                <Button color="link" size="lg" block><a href="mailto:kuan.tung@epfl.ch">kuan.tung@epfl.ch</a></Button>
               </div>
               <p className="mb-3">
                 <Button color="link mx-2"><a href="https://github.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-lg"></i></a></Button>
