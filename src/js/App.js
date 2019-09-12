@@ -13,7 +13,7 @@ class App extends Component {
   render() {
     const supportsHistory = 'pushState' in window.history
     return (
-      <Router forceRefresh={!supportsHistory}>
+      <Router basename={process.env.PUBLIC_URL} forceRefresh={!supportsHistory}>
         <div className="App">
           <Header />
           <Route path="/" exact component={Main}></Route>
