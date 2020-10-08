@@ -50,7 +50,11 @@ const Hobbies = () => (
             </div>
             <div className="my-3">
               <h1 className="display-3"><strong>Hobbies</strong></h1>
+<<<<<<< HEAD
               <p className="lead">Music <span role="img" aria-label="guitar&mic">🎸🎤</span> and videos that I made</p>
+=======
+              <p className="lead">Music and videos I made</p>
+>>>>>>> 46970627bd0510dad1912ebec5784fdbd78649e2
             </div>
           </Jumbotron>
         </Col>
