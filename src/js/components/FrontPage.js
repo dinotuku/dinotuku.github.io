@@ -19,16 +19,16 @@ const FrontPage = () => (
             <h1 className="display-4"><strong>Kuan Tung</strong></h1>
             <p className="lead">Master student in Electrical Engineering at EPFL</p>
             <hr className="my-2" />
-            <p>{'<3'} natural language processing, machine learning, web development, and acoustic music</p>
+            <p><span role="img" aria-label="love">🖤</span> data science, machine learning, web development, and acoustic music</p>
             <p className="mb-3">
-              <Button color="link mx-2"><a href="https://github.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-lg"></i></a></Button>
-              <Button color="link mx-2"><a href="https://www.linkedin.com/in/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-lg"></i></a></Button>
-              <Button color="link mx-2"><a href="https://www.facebook.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f fa-lg"></i></a></Button>
-              <Button color="link mx-2"><a href="https://www.instagram.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i></a></Button>
+              <Button color="link mx-2"><a href="https://github.com/dinotuku" rel="noopener noreferrer"><i className="fab fa-github fa-lg"></i></a></Button>
+              <Button color="link mx-2"><a href="https://www.linkedin.com/in/dinotuku" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-lg"></i></a></Button>
+              <Button color="link mx-2"><a href="https://www.facebook.com/dinotuku" rel="noopener noreferrer"><i className="fab fa-facebook-f fa-lg"></i></a></Button>
+              <Button color="link mx-2"><a href="https://www.instagram.com/dinotuku" rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i></a></Button>
             </p>
             {/* <hr className="my-2" />
             <p className="small mt-3 mb-1">My paper was awarded the Best Student Paper at Interspeech 2018</p>
-            <a href="https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1346.html" target="_blank" rel="noopener noreferrer"><p className="small">Joint Learning of Interactive Spoken Content Retrieval and Trainable User Simulator</p></a> */}
+            <a href="https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1346.html" rel="noopener noreferrer"><p className="small">Joint Learning of Interactive Spoken Content Retrieval and Trainable User Simulator</p></a> */}
           </Jumbotron>
         </Col>
       </Row>

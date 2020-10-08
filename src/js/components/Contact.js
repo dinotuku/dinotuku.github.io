@@ -26,10 +26,10 @@ const Contact = () => (
                 <Button color="link" size="lg" block><a href="mailto:kuan.tung@epfl.ch">kuan.tung@epfl.ch</a></Button>
               </div>
               <p className="mb-3">
-                <Button color="link mx-2"><a href="https://github.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-github fa-lg"></i></a></Button>
-                <Button color="link mx-2"><a href="https://www.linkedin.com/in/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-lg"></i></a></Button>
-                <Button color="link mx-2"><a href="https://www.facebook.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f fa-lg"></i></a></Button>
-                <Button color="link mx-2"><a href="https://www.instagram.com/dinotuku" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i></a></Button>
+                <Button color="link mx-2"><a href="https://github.com/dinotuku" rel="noopener noreferrer"><i className="fab fa-github fa-lg"></i></a></Button>
+                <Button color="link mx-2"><a href="https://www.linkedin.com/in/dinotuku" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-lg"></i></a></Button>
+                <Button color="link mx-2"><a href="https://www.facebook.com/dinotuku" rel="noopener noreferrer"><i className="fab fa-facebook-f fa-lg"></i></a></Button>
+                <Button color="link mx-2"><a href="https://www.instagram.com/dinotuku" rel="noopener noreferrer"><i className="fab fa-instagram fa-lg"></i></a></Button>
               </p>
             </Jumbotron>
           </Col>

@@ -15,7 +15,7 @@ const Resume = () => (
             <Jumbotron className="bg-white d-flex flex-wrap justify-content-around align-items-center">
               <div className="my-3">
                 <h1 className="display-4">Resume</h1>
-                <p className="lead">About me</p>
+                <p className="lead">A little bit more about me</p>
               </div>
               <div className="iframe-wrapper">
                 <div className="fixed-aspect-ratio">
