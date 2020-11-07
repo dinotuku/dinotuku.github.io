@@ -1,14 +1,14 @@
 // My Bootstrap configuration
-@import 'custom_bootstrap';
+@import "custom_bootstrap";
 
 // Bootstrap library
-@import 'bootstrap/scss/bootstrap';
+@import "bootstrap/scss/bootstrap";
 
 // Font Awesome
-@import 'https://use.fontawesome.com/releases/v5.0.10/css/all.css';
+@import "https://use.fontawesome.com/releases/v5.0.10/css/all.css";
 
 // Other settings
-body{
+body {
   min-width: 300px;
   letter-spacing: 0.8px;
 }
@@ -22,8 +22,12 @@ strong {
 }
 
 @keyframes logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .logo {
@@ -70,7 +74,7 @@ strong {
     width: 100%;
     z-index: 1;
     background-color: $white;
-    box-shadow: 0 4px 7px rgba(10,10,10,.1);
+    box-shadow: 0 4px 7px rgba(10, 10, 10, 0.1);
   }
 
   .navbar-toggler:focus,
@@ -96,10 +100,10 @@ strong {
 
   .navbar-toggler span:nth-child(1),
   .navbar-toggler span:nth-child(3) {
-    -webkit-transition: transform .3s ease-in-out;
-    -moz-transition: transform .3s ease-in-out;
-    -o-transition: transform .3s ease-in-out;
-    transition: transform .3s ease-in-out;
+    -webkit-transition: transform 0.3s ease-in-out;
+    -moz-transition: transform 0.3s ease-in-out;
+    -o-transition: transform 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
   }
 
   .navbar-toggler:not(.custom-collapsed) span:nth-child(1) {

@@ -31,28 +31,16 @@ const Hobbies = () => (
               </Card>
               <Card className="m-4">
                 <p className="mt-1 mb-0">*P. Chung, *K. Tung, C. Tai, H. Lee</p>
-<<<<<<< HEAD
                 <a href="https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1346.html" rel="noopener noreferrer">Joint Learning of Interactive Spoken Content Retrieval and Trainable User Simulator</a>
                 <span>Proc. Interspeech 2018, 2032-2036</span>
                 <span>DOI: 10.21437/Interspeech.2018-1346</span>
                 <p className="small">* Co-first author</p>
                 <p className="small">This paper was awarded the <a href="https://www.isca-speech.org/iscaweb/index.php/honors/awards" rel="noopener noreferrer">ISCA Award for Best Student Paper</a></p>
-=======
-                <a href="https://www.isca-speech.org/archive/Interspeech_2018/abstracts/1346.html" target="_blank" rel="noopener noreferrer">Joint Learning of Interactive Spoken Content Retrieval and Trainable User Simulator</a>
-                <span>Proc. Interspeech 2018, 2032-2036</span>
-                <span>DOI: 10.21437/Interspeech.2018-1346</span>
-                <p className="small">* Co-first author</p>
-                <p className="small">This paper was awarded the ISCA Award for Best Student Paper</p>
->>>>>>> 46970627bd0510dad1912ebec5784fdbd78649e2
               </Card>
             </div>
             <div className="my-3">
               <h1 className="display-3"><strong>Publications</strong></h1>
-<<<<<<< HEAD
               <p className="lead">Point Cloud Compression<br/>Affective Computing<br/>Spoken Content Retrieval</p>
-=======
-              <p className="lead">Affective Computing and Spoken Content Retrieval</p>
->>>>>>> 46970627bd0510dad1912ebec5784fdbd78649e2
             </div>
           </Jumbotron>
         </Col>
