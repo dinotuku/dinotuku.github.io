@@ -29,6 +29,10 @@ const Hobbies = (props) => {
                     {activeTab === '1' ? (
                       <div className="d-flex flex-wrap justify-content-around align-items-center" style={{ "width": "100%" }}>
                         <Card className="two-fifth m-4">
+                          <ReactPlayer url="https://youtu.be/XOUs49bRLgc" width="100%" height="100%" controls={true} />
+                          <p className="lead mt-1 mb-0"><a href="https://youtu.be/XOUs49bRLgc" target="_blank" rel="noopener noreferrer">Nothing</a></p>
+                        </Card>
+                        <Card className="two-fifth m-4">
                           <ReactPlayer url="https://youtu.be/oTzu7G8pQNo" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://youtu.be/oTzu7G8pQNo" target="_blank" rel="noopener noreferrer">E A VERDADE</a></p>
                         </Card>
@@ -48,17 +52,16 @@ const Hobbies = (props) => {
                           <ReactPlayer url="https://youtu.be/Qj-sqYCPJjQ" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://youtu.be/Qj-sqYCPJjQ" target="_blank" rel="noopener noreferrer">Fast Car</a></p>
                         </Card>
-                        <Card className="two-fifth m-4">
-                          <ReactPlayer url="https://youtu.be/LZj0eNqd6Dk" width="100%" height="100%" controls={true} />
-                          <p className="lead mt-1 mb-0"><a href="https://youtu.be/LZj0eNqd6Dk" target="_blank" rel="noopener noreferrer">20200731 Tianmu</a></p>
-                        </Card>
                       </div>
                     ) : null}
-
                   </TabPane>
                   <TabPane tabId="2">
                     {activeTab === '2' ? (
                       <div className="d-flex flex-wrap justify-content-around align-items-center" style={{ "width": "100%" }}>
+                        <Card className="two-fifth m-4">
+                          <ReactPlayer url="https://youtu.be/LZj0eNqd6Dk" width="100%" height="100%" controls={true} />
+                          <p className="lead mt-1 mb-0"><a href="https://youtu.be/LZj0eNqd6Dk" target="_blank" rel="noopener noreferrer">20200731 Tianmu</a></p>
+                        </Card>
                         <Card className="two-fifth m-4">
                           <ReactPlayer url="https://vimeo.com/302979750" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://vimeo.com/302979750" target="_blank" rel="noopener noreferrer">我們一起走，好嗎</a></p>
