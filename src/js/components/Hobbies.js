@@ -18,7 +18,7 @@ const Hobbies = (props) => {
   }
 
   return (
-    <section className="hero full-height bg-white">
+    <section id="hobbies" className="hero full-height bg-white">
       <Container className="bg-white">
         <Row>
           <Col>
@@ -28,6 +28,10 @@ const Hobbies = (props) => {
                   <TabPane tabId="1">
                     {activeTab === '1' ? (
                       <div className="d-flex flex-wrap justify-content-around align-items-center" style={{ "width": "100%" }}>
+                        <Card className="two-fifth m-4">
+                          <ReactPlayer url="https://youtu.be/-cZITPvaJSE" width="100%" height="100%" controls={true} />
+                          <p className="lead mt-1 mb-0"><a href="https://youtu.be/-cZITPvaJSE" target="_blank" rel="noopener noreferrer">大人中</a></p>
+                        </Card>
                         <Card className="two-fifth m-4">
                           <ReactPlayer url="https://youtu.be/XOUs49bRLgc" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://youtu.be/XOUs49bRLgc" target="_blank" rel="noopener noreferrer">Nothing</a></p>
@@ -48,16 +52,16 @@ const Hobbies = (props) => {
                           <ReactPlayer url="https://youtu.be/5UZiWEH4eK0" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://youtu.be/5UZiWEH4eK0" target="_blank" rel="noopener noreferrer">刻在我心底的名字</a></p>
                         </Card>
-                        <Card className="two-fifth m-4">
-                          <ReactPlayer url="https://youtu.be/Qj-sqYCPJjQ" width="100%" height="100%" controls={true} />
-                          <p className="lead mt-1 mb-0"><a href="https://youtu.be/Qj-sqYCPJjQ" target="_blank" rel="noopener noreferrer">Fast Car</a></p>
-                        </Card>
                       </div>
                     ) : null}
                   </TabPane>
                   <TabPane tabId="2">
                     {activeTab === '2' ? (
                       <div className="d-flex flex-wrap justify-content-around align-items-center" style={{ "width": "100%" }}>
+                        <Card className="two-fifth m-4">
+                          <ReactPlayer url="https://youtu.be/Qj-sqYCPJjQ" width="100%" height="100%" controls={true} />
+                          <p className="lead mt-1 mb-0"><a href="https://youtu.be/Qj-sqYCPJjQ" target="_blank" rel="noopener noreferrer">Fast Car</a></p>
+                        </Card>
                         <Card className="two-fifth m-4">
                           <ReactPlayer url="https://youtu.be/LZj0eNqd6Dk" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://youtu.be/LZj0eNqd6Dk" target="_blank" rel="noopener noreferrer">20200731 Tianmu</a></p>
@@ -78,6 +82,12 @@ const Hobbies = (props) => {
                           <ReactPlayer url="https://vimeo.com/265892102" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://vimeo.com/265892102" target="_blank" rel="noopener noreferrer">Mr Moustafa</a></p>
                         </Card>
+                      </div>
+                    ) : null}
+                  </TabPane>
+                  <TabPane tabId="3">
+                    {activeTab === '3' ? (
+                      <div className="d-flex flex-wrap justify-content-around align-items-center" style={{ "width": "100%" }}>
                         <Card className="two-fifth m-4">
                           <ReactPlayer url="https://vimeo.com/265892521" width="100%" height="100%" controls={true} />
                           <p className="lead mt-1 mb-0"><a href="https://vimeo.com/265892521" target="_blank" rel="noopener noreferrer">Mickey Doraemon</a></p>
@@ -87,14 +97,19 @@ const Hobbies = (props) => {
                   </TabPane>
                 </TabContent>
                 <Pagination aria-label="Page navigation example">
-                  <PaginationItem active={ activeTab === '1' }>
+                  <PaginationItem active={activeTab === '1'}>
                     <PaginationLink onClick={() => { toggle('1'); }}>
                       1
                     </PaginationLink>
                   </PaginationItem>
-                  <PaginationItem active={ activeTab === '2' }>
+                  <PaginationItem active={activeTab === '2'}>
                     <PaginationLink onClick={() => { toggle('2'); }}>
                       2
+                    </PaginationLink>
+                  </PaginationItem>
+                  <PaginationItem active={activeTab === '3'}>
+                    <PaginationLink onClick={() => { toggle('3'); }}>
+                      3
                     </PaginationLink>
                   </PaginationItem>
                 </Pagination>

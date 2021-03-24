@@ -7,7 +7,7 @@ import {
 } from 'reactstrap';
 
 const Resume = () => (
-  <section className="hero resume">
+  <section id="resume" className="hero resume">
     <section className="full-height bg-white">
       <Container className="bg-white">
         <Row>
@@ -15,7 +15,7 @@ const Resume = () => (
             <Jumbotron className="bg-white d-flex flex-wrap justify-content-around align-items-center">
               <div className="my-3">
                 <h1 className="display-4">Resume</h1>
-                <p className="lead">A little bit more about me</p>
+                <p className="lead">A little bit more about me<br/>If it's not showing, click <a href="https://drive.google.com/file/d/1b2QI9iTYt6TEHXsMe4TxS-11XazgVza-/view?usp=sharing" rel="noopener noreferrer">here</a></p>
               </div>
               <div className="iframe-wrapper">
                 <div className="fixed-aspect-ratio">
