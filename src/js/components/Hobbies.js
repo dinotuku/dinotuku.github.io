@@ -8,7 +8,7 @@ import {
   TabContent, TabPane,
   Pagination, PaginationItem, PaginationLink
 } from 'reactstrap';
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy';
 
 const Hobbies = (props) => {
   const [activeTab, setActiveTab] = useState('1');

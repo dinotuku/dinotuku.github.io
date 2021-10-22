@@ -55,7 +55,7 @@ class Header extends Component {
                   })
                 } onClick={this.toggle} children={customNavbarToggler()} />
                 <Collapse isOpen={this.state.isOpen} navbar>
-                  <Nav className="ml-auto" navbar>
+                  <Nav className="ms-auto" navbar>
                     <NavItem onClick={this.toggle}>
                       <NavLink className="nav-link" to="/" exact activeClassName="active">Home</NavLink>
                     </NavItem>

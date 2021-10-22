@@ -17,7 +17,8 @@ const FrontPage = () => (
           <Jumbotron className="bg-white two-third">
             <img src={profile} className="profile my-3" alt="profile"/>
             <h1 className="display-4"><strong>Kuan Tung</strong></h1>
-            <p className="lead">Master student in Electrical Engineering at EPFL</p>
+            <p className="lead">Data science intern at <a href="https://www.open-systems.com/" rel="noopener noreferrer">Open Systems</a></p>
+            <p className="lead">Master student in Electrical Engineering at <a href="https://www.epfl.ch/en/" rel="noopener noreferrer">EPFL</a></p>
             <hr className="my-2" />
             <p><span role="img" aria-label="love">🖤</span> data science, machine learning, web development, and <a href="/hobbies">music</a></p>
             <p className="mb-3">

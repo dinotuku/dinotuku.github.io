@@ -65,7 +65,7 @@ strong {
   padding: 0;
 }
 
-@include media-breakpoint-down(sm) {
+@include media-breakpoint-down(md) {
   .navbar-collapse {
     position: absolute;
     top: 3.5em;

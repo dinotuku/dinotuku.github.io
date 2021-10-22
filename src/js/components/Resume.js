@@ -19,7 +19,7 @@ const Resume = () => (
               </div>
               <div className="iframe-wrapper">
                 <div className="fixed-aspect-ratio">
-                  <iframe className="ml-aute" title="resume" src="https://gdurl.com/KA4X/viewer" width="500" height="100%" frameBorder="0"></iframe>
+                  <iframe className="ms-auto" title="resume" src="https://gdurl.com/KA4X/viewer" width="500" height="100%" frameBorder="0"></iframe>
                 </div>
               </div>
             </Jumbotron>
