@@ -18,9 +18,9 @@ const FrontPage = () => (
             <img src={profile} className="profile my-3" alt="profile"/>
             <h1 className="display-4"><strong>Kuan Tung</strong></h1>
             <p className="lead">Data science intern at <a href="https://www.open-systems.com/" rel="noopener noreferrer">Open Systems</a></p>
-            <p className="lead">Master student in Electrical Engineering at <a href="https://www.epfl.ch/en/" rel="noopener noreferrer">EPFL</a></p>
+            <p className="lead">MS student in Electrical Engineering at <a href="https://www.epfl.ch/en/" rel="noopener noreferrer">EPFL</a></p>
             <hr className="my-2" />
-            <p><span role="img" aria-label="love">🖤</span> data science, machine learning, web development, and <a href="/hobbies">music</a></p>
+            <p className="description"><span role="img" aria-label="love">🖤</span> data science, machine learning, web development, and <a href="/hobbies">music</a></p>
             <p className="mb-3">
               <Button color="link mx-2"><a href="https://github.com/dinotuku" rel="noopener noreferrer"><i className="fab fa-github fa-lg"></i></a></Button>
               <Button color="link mx-2"><a href="https://www.linkedin.com/in/dinotuku" rel="noopener noreferrer"><i className="fab fa-linkedin-in fa-lg"></i></a></Button>
